@@ -1,0 +1,50 @@
+.carrito{
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #0000003b;
+    margin-left: 80%;
+    padding: 15px;
+    height: 49%;
+    align-items: flex-end;
+    overflow-y: scroll;
+}
+
+.display{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #00000025;
+    background-color: #00000010;
+}
+
+.producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto h4{
+    padding: 10px;
+}
+
+.producto input{
+    width: 20%;
+    height: 20%;
+    margin-top:2px;
+}
+
+.producto a{
+    
+    margin-bottom:1rem ;
+    margin-top: 1rem;
+    background: transparent;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.producto a:hover{
+    transform: scale(1.06);
+}

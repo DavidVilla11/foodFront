@@ -1,0 +1,23 @@
+nav{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  z-index: 333;
+}
+
+nav a{
+  font-weight: 1000;
+  text-decoration: none;
+  margin: 15px;
+  color: red;
+}
+
+nav a:hover{
+  border-bottom: 2px solid red;
+  opacity: 0.8;
+}
+
+nav a.is-active{
+  border-bottom: 2px solid red;
+  pointer-events: none;
+}
